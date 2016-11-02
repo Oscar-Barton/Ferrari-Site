@@ -129,6 +129,12 @@ div.Carimage {
   border: 5px solid red;
 }
 
+
+
+
+
+
+
 div.Text1 {
   color: white;
   position: absolute;
@@ -146,11 +152,13 @@ padding: 10px;
 }
 
 div.topleft {
-  background-color: black;
+  background-color: blue;
   width: 50%;
   height: 33%;
-  position: absolute;
+  position: relative;
+
 }
+
 
 div.topright {
   background-color: green;
@@ -159,6 +167,8 @@ div.topright {
   display: inline-block;
   position: relative;
   margin-left: 50%;
+  text-align: center;
+
 }
 
 div.middleleft {
@@ -177,6 +187,7 @@ div.middleright {
   color: red;
   float: right;
   display: inline-block;
+
 }
 
 div.bottomcentre {
@@ -184,4 +195,93 @@ div.bottomcentre {
   height: 33%;
   color: red;
   background-color: blue;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+div.Centeredtext {
+  width: 100px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+    position: static;
+}
+
+div#wrapper{
+  background-color: transparent;
+  width: 100%;
+  height: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.Test{
+height: 33%;
+width: 50%;
+float: left;
+position: relative;
+}
+
+div#first{
+  background-color: transparent;
+}
+
+#LaFerrari{
+  margin: auto;
+  width: 680px;
+  height: 500px;
+  position: relative;
+  left: 110px;
+}
+
+div#second{
+  background-color: transparent;
+}
+
+#textformat{
+  color: white;
+  margin: 10%;
+  text-align: center;
+  font: lato ;
+}
+
+
+
+div#third{
+  background-color: transparent;
+}
+
+#Specs{
+  color: white;
+}
+
+
+div#fourth{
+  background-color: transparent;
+}
+
+#Engine{
+  width: 500px;
+  height: 300px;
+  position: relative;
+  left: 200px;
+  top: 15px;
+
+}
+
+div#fifth{
+  background-color: yellow;
+  margin: auto;
+}
+
+.Bottom{
+height: 100%;
+width: 100%;
+float: left;
+position: relative;
+
 }
